@@ -8,3 +8,6 @@ clear
 
 # Print log message
 echo "Log has been saved at ~/.bash_util.txt"
+
+# exit
+exit 0
