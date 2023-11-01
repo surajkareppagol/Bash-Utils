@@ -2,21 +2,21 @@
 
 ## Create GIF'f From Videos
 
-The `create_gif.sh` script takes the name of the file (without extension) as parameter and generates `output.gif`.
+The `create_gif.sh` script takes the name of the file (without extension) as parameter and generates `gif` with the same input file name.
 
 ```bash
 chmod +x ./create_gif.sh
 ```
 
 ```bash
-./create_gif.sh input.mp4
+./create_gif.sh input
 ```
 
 Make sure `ffmpeg` is installed.
 
 ## Create PDF From Markdown
 
-The `create_md_pdf.sh` script takes the name of input file and output file as arguments and created pdf file.
+The `create_md_pdf.sh` script takes the name of input file and output file as arguments and creates pdf file.
 
 ```bash
 chmod +x ./create_md_pdf.sh
