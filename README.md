@@ -1,6 +1,6 @@
 # Bash Utils
 
-## Create GIF'f From Videos
+## Create GIF's From Videos
 
 The `create_gif.sh` script takes the name of the file (without extension) as parameter and generates `gif` with the same input file name.
 
@@ -27,3 +27,15 @@ chmod +x ./create_md_pdf.sh
 ```
 
 Make sure `pandoc`, `groff` and `ghostscript` are installed.
+
+## System Resources
+
+Created to showcase the syntax of Bash Scripts, from `Introduction To Bash Scripting For Developers By Bobby Iliev`.
+
+```bash
+chmod +x ./create_md_pdf.sh
+```
+
+```bash
+./resources.sh
+```
